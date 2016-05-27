@@ -4196,46 +4196,47 @@ table.hover tr:nth-of-type(even):hover {
     text-decoration: none; }
     /* line 37, ../../source_sass/_base.scss */
     .home .intro h3 a {
+      color: #808080;
       border-bottom: dotted 1px #aeaeae; }
-      /* line 39, ../../source_sass/_base.scss */
+      /* line 40, ../../source_sass/_base.scss */
       .home .intro h3 a:visited {
         color: #808080; }
-  /* line 45, ../../source_sass/_base.scss */
+  /* line 46, ../../source_sass/_base.scss */
   .home .intro .experience {
     margin-top: 40px; }
-    /* line 47, ../../source_sass/_base.scss */
+    /* line 48, ../../source_sass/_base.scss */
     .home .intro .experience ul {
       list-style: none; }
-      /* line 49, ../../source_sass/_base.scss */
+      /* line 50, ../../source_sass/_base.scss */
       .home .intro .experience ul li {
         font-family: "Open Sans", serif;
         letter-spacing: 1px;
         margin-bottom: -10px; }
-        /* line 53, ../../source_sass/_base.scss */
+        /* line 54, ../../source_sass/_base.scss */
         .home .intro .experience ul li h5 {
           margin-bottom: 0px;
           font-size: 20px;
           color: #505050;
           font-weight: 300; }
-        /* line 59, ../../source_sass/_base.scss */
+        /* line 60, ../../source_sass/_base.scss */
         .home .intro .experience ul li span {
           font-size: 15px;
           transition: all 0.5s ease-in-out;
           -webkit-transition: all 0.5s ease-in-out;
           -moz-transition: all 0.5s ease-in-out;
           -o-transition: all 0.5s ease-in-out; }
-        /* line 63, ../../source_sass/_base.scss */
+        /* line 64, ../../source_sass/_base.scss */
         .home .intro .experience ul li h7 {
           font-weight: 300;
           color: #808080;
           margin-top: -15px; }
-        /* line 69, ../../source_sass/_base.scss */
+        /* line 70, ../../source_sass/_base.scss */
         .home .intro .experience ul li p {
           position: relative;
           z-index: -1;
           height: 0px;
           opacity: 0; }
-          /* line 72, ../../source_sass/_base.scss */
+          /* line 73, ../../source_sass/_base.scss */
           .home .intro .experience ul li p.extended {
             height: auto;
             opacity: 1;
@@ -4244,30 +4245,31 @@ table.hover tr:nth-of-type(even):hover {
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
             -o-transition: all 0.5s ease-in-out; }
-          /* line 80, ../../source_sass/_base.scss */
+          /* line 81, ../../source_sass/_base.scss */
           .home .intro .experience ul li p a {
-            border-bottom: dotted 1px #aeaeae; }
-            /* line 82, ../../source_sass/_base.scss */
+            border-bottom: dotted 1px #aeaeae;
+            color: black; }
+            /* line 84, ../../source_sass/_base.scss */
             .home .intro .experience ul li p a:visited {
               color: black; }
-/* line 91, ../../source_sass/_base.scss */
+/* line 93, ../../source_sass/_base.scss */
 .home .myworks {
   padding-top: 20px; }
-  /* line 93, ../../source_sass/_base.scss */
+  /* line 95, ../../source_sass/_base.scss */
   .home .myworks h2 {
     text-align: center;
     font-family: 'Lobster';
     font-size: 20pt;
     letter-spacing: 1px;
     /*color: #C5B358;*/ }
-  /* line 100, ../../source_sass/_base.scss */
+  /* line 102, ../../source_sass/_base.scss */
   .home .myworks .eyeimg {
     width: 100%;
     text-align: center; }
-    /* line 103, ../../source_sass/_base.scss */
+    /* line 105, ../../source_sass/_base.scss */
     .home .myworks .eyeimg img {
       width: 20%; }
-  /* line 107, ../../source_sass/_base.scss */
+  /* line 109, ../../source_sass/_base.scss */
   .home .myworks h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4275,12 +4277,12 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 115, ../../source_sass/_base.scss */
+  /* line 117, ../../source_sass/_base.scss */
   .home .myworks .thumbnails {
     margin-top: 20px;
     padding-left: 3px;
     /*padding-right: 5px;*/ }
-    /* line 119, ../../source_sass/_base.scss */
+    /* line 121, ../../source_sass/_base.scss */
     .home .myworks .thumbnails .thumb_nail {
       opacity: 0;
       -ms-transform: translateY(-10px);
@@ -4292,7 +4294,7 @@ table.hover tr:nth-of-type(even):hover {
       width: 49%;
       border-radius: 10px;
       position: relative; }
-      /* line 120, ../../source_sass/_base.scss */
+      /* line 122, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail.appear {
         -ms-transform: translateY(0px);
         -webkit-transform: translateY(0px);
@@ -4302,7 +4304,7 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out; }
-      /* line 134, ../../source_sass/_base.scss */
+      /* line 136, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail .background-img {
         position: absolute;
         height: 100%;
@@ -4311,31 +4313,31 @@ table.hover tr:nth-of-type(even):hover {
         /*@include filter_blur(2px);*/
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: overlay; }
-      /* line 144, ../../source_sass/_base.scss */
+      /* line 146, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(1) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_projects.png"); }
-      /* line 152, ../../source_sass/_base.scss */
+      /* line 154, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(2) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_designs.png"); }
-      /* line 160, ../../source_sass/_base.scss */
+      /* line 162, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(3) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_photos.png"); }
-      /* line 168, ../../source_sass/_base.scss */
+      /* line 170, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(4) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_writings.png"); }
-      /* line 175, ../../source_sass/_base.scss */
+      /* line 177, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail h5 {
         position: absolute;
         left: 5px;
@@ -4344,7 +4346,7 @@ table.hover tr:nth-of-type(even):hover {
         font-family: "Open Sans", serif;
         letter-spacing: 0.5px;
         color: white; }
-/* line 190, ../../source_sass/_base.scss */
+/* line 192, ../../source_sass/_base.scss */
 .home .contactme {
   margin-top: 80px;
   font-family: "Open Sans", serif;
@@ -4353,14 +4355,14 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 35px;
   color: black;
   text-align: center; }
-  /* line 198, ../../source_sass/_base.scss */
+  /* line 200, ../../source_sass/_base.scss */
   .home .contactme div {
     width: 100%;
     text-align: center; }
-    /* line 201, ../../source_sass/_base.scss */
+    /* line 203, ../../source_sass/_base.scss */
     .home .contactme div img {
       width: 20%; }
-  /* line 205, ../../source_sass/_base.scss */
+  /* line 207, ../../source_sass/_base.scss */
   .home .contactme h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4368,14 +4370,14 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 213, ../../source_sass/_base.scss */
+  /* line 215, ../../source_sass/_base.scss */
   .home .contactme a {
     border-bottom: dotted 1px #aeaeae;
     color: #505050; }
-    /* line 216, ../../source_sass/_base.scss */
+    /* line 218, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-  /* line 220, ../../source_sass/_base.scss */
+  /* line 222, ../../source_sass/_base.scss */
   .home .contactme h5 {
     margin-top: 20px;
     color: #aeaeae;

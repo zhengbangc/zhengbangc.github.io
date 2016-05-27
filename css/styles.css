@@ -4236,7 +4236,7 @@ table.hover tr:nth-of-type(even):hover {
           z-index: -1;
           height: 0px;
           opacity: 0; }
-          /* line 73, ../../source_sass/_base.scss */
+          /* line 72, ../../source_sass/_base.scss */
           .home .intro .experience ul li p.extended {
             height: auto;
             opacity: 1;
@@ -4244,32 +4244,33 @@ table.hover tr:nth-of-type(even):hover {
             transition: all 0.5s ease-in-out;
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
-            -o-transition: all 0.5s ease-in-out; }
-          /* line 81, ../../source_sass/_base.scss */
+            -o-transition: all 0.5s ease-in-out;
+            z-index: 2; }
+          /* line 82, ../../source_sass/_base.scss */
           .home .intro .experience ul li p a {
             border-bottom: dotted 1px #aeaeae;
             color: black; }
-            /* line 84, ../../source_sass/_base.scss */
+            /* line 85, ../../source_sass/_base.scss */
             .home .intro .experience ul li p a:visited {
               color: black; }
-/* line 93, ../../source_sass/_base.scss */
+/* line 94, ../../source_sass/_base.scss */
 .home .myworks {
   padding-top: 20px; }
-  /* line 95, ../../source_sass/_base.scss */
+  /* line 96, ../../source_sass/_base.scss */
   .home .myworks h2 {
     text-align: center;
     font-family: 'Lobster';
     font-size: 20pt;
     letter-spacing: 1px;
     /*color: #C5B358;*/ }
-  /* line 102, ../../source_sass/_base.scss */
+  /* line 103, ../../source_sass/_base.scss */
   .home .myworks .eyeimg {
     width: 100%;
     text-align: center; }
-    /* line 105, ../../source_sass/_base.scss */
+    /* line 106, ../../source_sass/_base.scss */
     .home .myworks .eyeimg img {
       width: 20%; }
-  /* line 109, ../../source_sass/_base.scss */
+  /* line 110, ../../source_sass/_base.scss */
   .home .myworks h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4277,12 +4278,12 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 117, ../../source_sass/_base.scss */
+  /* line 118, ../../source_sass/_base.scss */
   .home .myworks .thumbnails {
     margin-top: 20px;
     padding-left: 3px;
     /*padding-right: 5px;*/ }
-    /* line 121, ../../source_sass/_base.scss */
+    /* line 122, ../../source_sass/_base.scss */
     .home .myworks .thumbnails .thumb_nail {
       opacity: 0;
       -ms-transform: translateY(-10px);
@@ -4294,7 +4295,7 @@ table.hover tr:nth-of-type(even):hover {
       width: 49%;
       border-radius: 10px;
       position: relative; }
-      /* line 122, ../../source_sass/_base.scss */
+      /* line 123, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail.appear {
         -ms-transform: translateY(0px);
         -webkit-transform: translateY(0px);
@@ -4304,7 +4305,7 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out; }
-      /* line 136, ../../source_sass/_base.scss */
+      /* line 137, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail .background-img {
         position: absolute;
         height: 100%;
@@ -4313,31 +4314,31 @@ table.hover tr:nth-of-type(even):hover {
         /*@include filter_blur(2px);*/
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: overlay; }
-      /* line 146, ../../source_sass/_base.scss */
+      /* line 147, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(1) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_projects.png"); }
-      /* line 154, ../../source_sass/_base.scss */
+      /* line 155, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(2) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_designs.png"); }
-      /* line 162, ../../source_sass/_base.scss */
+      /* line 163, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(3) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_photos.png"); }
-      /* line 170, ../../source_sass/_base.scss */
+      /* line 171, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(4) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_writings.png"); }
-      /* line 177, ../../source_sass/_base.scss */
+      /* line 178, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail h5 {
         position: absolute;
         left: 5px;
@@ -4346,7 +4347,7 @@ table.hover tr:nth-of-type(even):hover {
         font-family: "Open Sans", serif;
         letter-spacing: 0.5px;
         color: white; }
-/* line 192, ../../source_sass/_base.scss */
+/* line 193, ../../source_sass/_base.scss */
 .home .contactme {
   margin-top: 80px;
   margin-bottom: 40px;
@@ -4356,14 +4357,14 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 35px;
   color: black;
   text-align: center; }
-  /* line 201, ../../source_sass/_base.scss */
+  /* line 202, ../../source_sass/_base.scss */
   .home .contactme div {
     width: 100%;
     text-align: center; }
-    /* line 204, ../../source_sass/_base.scss */
+    /* line 205, ../../source_sass/_base.scss */
     .home .contactme div img {
       width: 20%; }
-  /* line 208, ../../source_sass/_base.scss */
+  /* line 209, ../../source_sass/_base.scss */
   .home .contactme h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4371,14 +4372,14 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 216, ../../source_sass/_base.scss */
+  /* line 217, ../../source_sass/_base.scss */
   .home .contactme a {
     border-bottom: dotted 1px #aeaeae;
     color: #505050; }
-    /* line 219, ../../source_sass/_base.scss */
+    /* line 220, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-  /* line 223, ../../source_sass/_base.scss */
+  /* line 224, ../../source_sass/_base.scss */
   .home .contactme h5 {
     margin-top: 20px;
     color: #aeaeae;

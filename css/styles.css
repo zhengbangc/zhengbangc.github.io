@@ -4350,7 +4350,7 @@ table.hover tr:nth-of-type(even):hover {
 /* line 193, ../../source_sass/_base.scss */
 .home .contactme {
   margin-top: 80px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   font-family: "Open Sans", serif;
   font-size: 20pt;
   font-weight: 300;

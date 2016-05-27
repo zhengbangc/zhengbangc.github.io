@@ -4349,20 +4349,21 @@ table.hover tr:nth-of-type(even):hover {
 /* line 192, ../../source_sass/_base.scss */
 .home .contactme {
   margin-top: 80px;
+  margin-bottom: 40px;
   font-family: "Open Sans", serif;
   font-size: 20pt;
   font-weight: 300;
   line-height: 35px;
   color: black;
   text-align: center; }
-  /* line 200, ../../source_sass/_base.scss */
+  /* line 201, ../../source_sass/_base.scss */
   .home .contactme div {
     width: 100%;
     text-align: center; }
-    /* line 203, ../../source_sass/_base.scss */
+    /* line 204, ../../source_sass/_base.scss */
     .home .contactme div img {
       width: 20%; }
-  /* line 207, ../../source_sass/_base.scss */
+  /* line 208, ../../source_sass/_base.scss */
   .home .contactme h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4370,14 +4371,14 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 215, ../../source_sass/_base.scss */
+  /* line 216, ../../source_sass/_base.scss */
   .home .contactme a {
     border-bottom: dotted 1px #aeaeae;
     color: #505050; }
-    /* line 218, ../../source_sass/_base.scss */
+    /* line 219, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-  /* line 222, ../../source_sass/_base.scss */
+  /* line 223, ../../source_sass/_base.scss */
   .home .contactme h5 {
     margin-top: 20px;
     color: #aeaeae;

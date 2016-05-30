@@ -4305,34 +4305,35 @@ table.hover tr:nth-of-type(even):hover {
           -moz-transition: opacity 0.5s ease-in-out;
           -o-transition: opacity 0.5s ease-in-out;
           z-index: 2;
+          margin-top: 5px;
           margin-bottom: 40px; }
-        /* line 131, ../../source_sass/_base.scss */
+        /* line 132, ../../source_sass/_base.scss */
         .home .intro .experience ul li p a {
           border-bottom: dotted 1px #aeaeae;
           color: black; }
-          /* line 134, ../../source_sass/_base.scss */
+          /* line 135, ../../source_sass/_base.scss */
           .home .intro .experience ul li p a:visited {
             color: black; }
-/* line 143, ../../source_sass/_base.scss */
+/* line 144, ../../source_sass/_base.scss */
 .home .myworks {
   padding-top: 20px; }
   @media screen and (min-width: 40em) {
-    /* line 143, ../../source_sass/_base.scss */
+    /* line 144, ../../source_sass/_base.scss */
     .home .myworks {
       width: 100vw;
       min-height: 100vh; } }
-  /* line 151, ../../source_sass/_base.scss */
+  /* line 152, ../../source_sass/_base.scss */
   .home .myworks .eyeimg {
     width: 100%;
     text-align: center; }
-    /* line 154, ../../source_sass/_base.scss */
+    /* line 155, ../../source_sass/_base.scss */
     .home .myworks .eyeimg img {
       width: 20%; }
       @media screen and (min-width: 40em) {
-        /* line 154, ../../source_sass/_base.scss */
+        /* line 155, ../../source_sass/_base.scss */
         .home .myworks .eyeimg img {
           width: 8%; } }
-  /* line 163, ../../source_sass/_base.scss */
+  /* line 164, ../../source_sass/_base.scss */
   .home .myworks h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4340,17 +4341,17 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 171, ../../source_sass/_base.scss */
+  /* line 172, ../../source_sass/_base.scss */
   .home .myworks .thumbnails {
     margin-top: 20px;
     padding-left: 3px;
     width: 100%; }
     @media screen and (min-width: 40em) {
-      /* line 171, ../../source_sass/_base.scss */
+      /* line 172, ../../source_sass/_base.scss */
       .home .myworks .thumbnails {
         margin-left: 12px;
         margin-right: 10px; } }
-    /* line 179, ../../source_sass/_base.scss */
+    /* line 180, ../../source_sass/_base.scss */
     .home .myworks .thumbnails .thumb_nail {
       opacity: 0;
       -ms-transform: translateY(-10px);
@@ -4362,7 +4363,7 @@ table.hover tr:nth-of-type(even):hover {
       width: 49%;
       border-radius: 10px;
       position: relative; }
-      /* line 180, ../../source_sass/_base.scss */
+      /* line 181, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail.appear {
         -ms-transform: translateY(0px);
         -webkit-transform: translateY(0px);
@@ -4372,7 +4373,7 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out; }
-      /* line 185, ../../source_sass/_base.scss */
+      /* line 186, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:hover {
         -ms-transform: scale(1.03, 1.03);
         /* IE 9 */
@@ -4383,21 +4384,21 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.25s ease-out;
         -moz-transition: all 0.25s ease-out;
         -o-transition: all 0.25s ease-out; }
-        /* line 188, ../../source_sass/_base.scss */
+        /* line 189, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover h5 {
           color: #C5B358; }
-        /* line 191, ../../source_sass/_base.scss */
+        /* line 192, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover p {
           transition: all 0.4s ease-in-out;
           -webkit-transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
           -o-transition: all 0.4s ease-in-out;
           opacity: 1; }
-        /* line 195, ../../source_sass/_base.scss */
+        /* line 196, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover .background-img {
           background-color: rgba(0, 0, 0, 0.7); }
       @media screen and (min-width: 40em) {
-        /* line 179, ../../source_sass/_base.scss */
+        /* line 180, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail {
           height: 200px;
           width: 30%;
@@ -4405,13 +4406,13 @@ table.hover tr:nth-of-type(even):hover {
           margin-right: 6px;
           margin-bottom: 10px; } }
       @media screen and (min-width: 64em) {
-        /* line 179, ../../source_sass/_base.scss */
+        /* line 180, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail {
           height: 250px;
           margin-left: 15px;
           margin-right: 15px;
           margin-bottom: 30px; } }
-      /* line 223, ../../source_sass/_base.scss */
+      /* line 224, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail .background-img {
         position: absolute;
         height: 100%;
@@ -4420,43 +4421,43 @@ table.hover tr:nth-of-type(even):hover {
         /*@include filter_blur(2px);*/
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: overlay; }
-      /* line 233, ../../source_sass/_base.scss */
+      /* line 234, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(1) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_projects.png"); }
-      /* line 241, ../../source_sass/_base.scss */
+      /* line 242, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(2) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_designs.png"); }
-      /* line 249, ../../source_sass/_base.scss */
+      /* line 250, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(3) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_photos.png"); }
-      /* line 257, ../../source_sass/_base.scss */
+      /* line 258, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(4) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_writings.png"); }
-      /* line 265, ../../source_sass/_base.scss */
+      /* line 266, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(5) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/cestlavie.png"); }
-      /* line 273, ../../source_sass/_base.scss */
+      /* line 274, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(6) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/bonvoyage.png"); }
-      /* line 280, ../../source_sass/_base.scss */
+      /* line 281, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail h5 {
         position: absolute;
         left: 10px;
@@ -4466,27 +4467,27 @@ table.hover tr:nth-of-type(even):hover {
         letter-spacing: 0.8px;
         color: white; }
         @media screen and (min-width: 64em) {
-          /* line 280, ../../source_sass/_base.scss */
+          /* line 281, ../../source_sass/_base.scss */
           .home .myworks .thumbnails .thumb_nail h5 {
             left: 20px;
             top: 10px;
             font-size: 20pt; } }
-      /* line 296, ../../source_sass/_base.scss */
+      /* line 297, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail p {
         display: none;
         position: absolute;
         opacity: 0;
-        font-family: "Open Sans", serif;
+        font-family: 'Roboto Slab', garamond, serif;
         letter-spacing: 0.8px;
         color: white;
         top: 45px;
         left: 20px;
         font-size: 18px; }
         @media screen and (min-width: 64em) {
-          /* line 296, ../../source_sass/_base.scss */
+          /* line 297, ../../source_sass/_base.scss */
           .home .myworks .thumbnails .thumb_nail p {
             display: block; } }
-/* line 318, ../../source_sass/_base.scss */
+/* line 319, ../../source_sass/_base.scss */
 .home .contactme {
   margin-top: 80px;
   padding-bottom: 40px;
@@ -4496,18 +4497,18 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 35px;
   color: black;
   text-align: center; }
-  /* line 327, ../../source_sass/_base.scss */
+  /* line 328, ../../source_sass/_base.scss */
   .home .contactme div {
     width: 100%;
     text-align: center; }
-    /* line 330, ../../source_sass/_base.scss */
+    /* line 331, ../../source_sass/_base.scss */
     .home .contactme div img {
       width: 20%; }
       @media screen and (min-width: 40em) {
-        /* line 330, ../../source_sass/_base.scss */
+        /* line 331, ../../source_sass/_base.scss */
         .home .contactme div img {
           width: 8%; } }
-  /* line 339, ../../source_sass/_base.scss */
+  /* line 340, ../../source_sass/_base.scss */
   .home .contactme h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4515,14 +4516,14 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 347, ../../source_sass/_base.scss */
+  /* line 348, ../../source_sass/_base.scss */
   .home .contactme a {
     border-bottom: dotted 1px #aeaeae;
     color: #505050; }
-    /* line 350, ../../source_sass/_base.scss */
+    /* line 351, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-  /* line 354, ../../source_sass/_base.scss */
+  /* line 355, ../../source_sass/_base.scss */
   .home .contactme h5 {
     margin-top: 20px;
     color: #aeaeae;

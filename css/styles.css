@@ -4523,7 +4523,14 @@ table.hover tr:nth-of-type(even):hover {
     /* line 351, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-  /* line 355, ../../source_sass/_base.scss */
+    /* line 354, ../../source_sass/_base.scss */
+    .home .contactme a:hover {
+      color: #C5B358;
+      transition: all 0.1s ease-in-out;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out; }
+  /* line 359, ../../source_sass/_base.scss */
   .home .contactme h5 {
     margin-top: 20px;
     color: #aeaeae;

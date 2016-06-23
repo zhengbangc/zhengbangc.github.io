@@ -16,7 +16,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Lobster:600,400,300|Roboto+Slab:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,500|Sacramento:600,400,300|Roboto+Slab:300);
 /* line 219, ../foundation6_lib/scss/global/_global.scss */
 html {
   font-family: sans-serif;
@@ -4195,11 +4195,11 @@ table.hover tr:nth-of-type(even):hover {
           width: 50%; } }
     /* line 37, ../../source_sass/_base.scss */
     .home .intro .introImage h2 {
-      font-family: 'Lobster', Helvetica, sans-serif;
-      font-weight: 400;
+      font-family: 'Sacramento', Helvetica, sans-serif;
+      font-weight: 500;
       color: #C5B358;
-      letter-spacing: 1px;
-      font-size: 20pt;
+      letter-spacing: 0.5px;
+      font-size: 26pt;
       margin-left: auto;
       margin-right: auto;
       text-align: center; }
@@ -4273,7 +4273,7 @@ table.hover tr:nth-of-type(even):hover {
       .home .intro .experience ul li h5 {
         margin-bottom: 0px;
         font-size: 20px;
-        color: #505050;
+        color: #303030;
         font-weight: 300; }
       /* line 109, ../../source_sass/_base.scss */
       .home .intro .experience ul li span {
@@ -4289,7 +4289,7 @@ table.hover tr:nth-of-type(even):hover {
       .home .intro .experience ul li p {
         position: relative;
         font-family: 'Roboto Slab', garamond, serif;
-        letter-spacing: 1.5px;
+        /*letter-spacing: 1px;*/
         z-index: -1;
         height: 0px;
         /*@include transition(height 0.3s ease-in-out );*/
@@ -4326,21 +4326,23 @@ table.hover tr:nth-of-type(even):hover {
   @media screen and (min-width: 40em) {
     /* line 152, ../../source_sass/_base.scss */
     .home .myworks {
-      width: 100vw;
+      width: 80vw;
+      margin-left: auto;
+      margin-right: auto;
       min-height: 100vh;
       overflow: hidden; } }
-  /* line 161, ../../source_sass/_base.scss */
+  /* line 163, ../../source_sass/_base.scss */
   .home .myworks .eyeimg {
     width: 100%;
     text-align: center; }
-    /* line 164, ../../source_sass/_base.scss */
+    /* line 166, ../../source_sass/_base.scss */
     .home .myworks .eyeimg img {
       width: 20%; }
       @media screen and (min-width: 40em) {
-        /* line 164, ../../source_sass/_base.scss */
+        /* line 166, ../../source_sass/_base.scss */
         .home .myworks .eyeimg img {
           width: 8%; } }
-  /* line 173, ../../source_sass/_base.scss */
+  /* line 175, ../../source_sass/_base.scss */
   .home .myworks h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4348,17 +4350,17 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 181, ../../source_sass/_base.scss */
+  /* line 183, ../../source_sass/_base.scss */
   .home .myworks .thumbnails {
     margin-top: 20px;
     padding-left: 3px;
     width: 100%; }
     @media screen and (min-width: 40em) {
-      /* line 181, ../../source_sass/_base.scss */
+      /* line 183, ../../source_sass/_base.scss */
       .home .myworks .thumbnails {
         margin-left: 12px;
         margin-right: 10px; } }
-    /* line 189, ../../source_sass/_base.scss */
+    /* line 191, ../../source_sass/_base.scss */
     .home .myworks .thumbnails .thumb_nail {
       opacity: 0;
       -ms-transform: translateY(-10px);
@@ -4370,7 +4372,7 @@ table.hover tr:nth-of-type(even):hover {
       width: 49%;
       border-radius: 6px;
       position: relative; }
-      /* line 190, ../../source_sass/_base.scss */
+      /* line 192, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail.appear {
         -ms-transform: translateY(0px);
         -webkit-transform: translateY(0px);
@@ -4380,7 +4382,7 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out; }
-      /* line 195, ../../source_sass/_base.scss */
+      /* line 197, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:hover {
         -ms-transform: scale(1.03, 1.03);
         /* IE 9 */
@@ -4391,21 +4393,21 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.25s ease-out;
         -moz-transition: all 0.25s ease-out;
         -o-transition: all 0.25s ease-out; }
-        /* line 198, ../../source_sass/_base.scss */
+        /* line 200, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover h5 {
           color: #C5B358; }
-        /* line 201, ../../source_sass/_base.scss */
+        /* line 203, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover p {
           transition: all 0.4s ease-in-out;
           -webkit-transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
           -o-transition: all 0.4s ease-in-out;
           opacity: 1; }
-        /* line 205, ../../source_sass/_base.scss */
+        /* line 207, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover .background-img {
           background-color: rgba(0, 0, 0, 0.7); }
       @media screen and (min-width: 40em) {
-        /* line 189, ../../source_sass/_base.scss */
+        /* line 191, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail {
           height: 200px;
           width: 30%;
@@ -4413,13 +4415,13 @@ table.hover tr:nth-of-type(even):hover {
           margin-right: 6px;
           margin-bottom: 10px; } }
       @media screen and (min-width: 64em) {
-        /* line 189, ../../source_sass/_base.scss */
+        /* line 191, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail {
-          height: 250px;
+          height: 200px;
           margin-left: 15px;
           margin-right: 15px;
           margin-bottom: 30px; } }
-      /* line 233, ../../source_sass/_base.scss */
+      /* line 235, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail .background-img {
         position: absolute;
         height: 100%;
@@ -4428,43 +4430,43 @@ table.hover tr:nth-of-type(even):hover {
         /*@include filter_blur(2px);*/
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: overlay; }
-      /* line 243, ../../source_sass/_base.scss */
+      /* line 245, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(1) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_projects.png"); }
-      /* line 251, ../../source_sass/_base.scss */
+      /* line 253, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(2) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_designs.png"); }
-      /* line 259, ../../source_sass/_base.scss */
+      /* line 261, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(3) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_photos.png"); }
-      /* line 267, ../../source_sass/_base.scss */
+      /* line 269, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(4) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/work_writings.png"); }
-      /* line 275, ../../source_sass/_base.scss */
+      /* line 277, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(5) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/cestlavie.png"); }
-      /* line 283, ../../source_sass/_base.scss */
+      /* line 285, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(6) .background-img {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-image: url("../data/images/bonvoyage.png"); }
-      /* line 290, ../../source_sass/_base.scss */
+      /* line 292, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail h5 {
         position: absolute;
         left: 10px;
@@ -4474,12 +4476,12 @@ table.hover tr:nth-of-type(even):hover {
         letter-spacing: 0.8px;
         color: white; }
         @media screen and (min-width: 64em) {
-          /* line 290, ../../source_sass/_base.scss */
+          /* line 292, ../../source_sass/_base.scss */
           .home .myworks .thumbnails .thumb_nail h5 {
             left: 20px;
             top: 10px;
             font-size: 20pt; } }
-      /* line 306, ../../source_sass/_base.scss */
+      /* line 308, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail p {
         display: none;
         position: absolute;
@@ -4491,10 +4493,10 @@ table.hover tr:nth-of-type(even):hover {
         left: 20px;
         font-size: 18px; }
         @media screen and (min-width: 64em) {
-          /* line 306, ../../source_sass/_base.scss */
+          /* line 308, ../../source_sass/_base.scss */
           .home .myworks .thumbnails .thumb_nail p {
             display: block; } }
-/* line 328, ../../source_sass/_base.scss */
+/* line 330, ../../source_sass/_base.scss */
 .home .contactme {
   margin-top: 80px;
   padding-bottom: 40px;
@@ -4504,18 +4506,18 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 35px;
   color: black;
   text-align: center; }
-  /* line 337, ../../source_sass/_base.scss */
+  /* line 339, ../../source_sass/_base.scss */
   .home .contactme div {
     width: 100%;
     text-align: center; }
-    /* line 340, ../../source_sass/_base.scss */
+    /* line 342, ../../source_sass/_base.scss */
     .home .contactme div img {
       width: 20%; }
       @media screen and (min-width: 40em) {
-        /* line 340, ../../source_sass/_base.scss */
+        /* line 342, ../../source_sass/_base.scss */
         .home .contactme div img {
           width: 8%; } }
-  /* line 349, ../../source_sass/_base.scss */
+  /* line 351, ../../source_sass/_base.scss */
   .home .contactme h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4523,22 +4525,22 @@ table.hover tr:nth-of-type(even):hover {
     text-align: center;
     margin-top: 5px;
     font-weight: 300; }
-  /* line 357, ../../source_sass/_base.scss */
+  /* line 359, ../../source_sass/_base.scss */
   .home .contactme a {
     border-bottom: dotted 1px #aeaeae;
     color: #505050;
     /*font-size: 18pt;*/ }
-    /* line 361, ../../source_sass/_base.scss */
+    /* line 363, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-    /* line 364, ../../source_sass/_base.scss */
+    /* line 366, ../../source_sass/_base.scss */
     .home .contactme a:hover {
       color: #C5B358;
       transition: all 0.1s ease-in-out;
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
       -o-transition: all 0.1s ease-in-out; }
-  /* line 369, ../../source_sass/_base.scss */
+  /* line 371, ../../source_sass/_base.scss */
   .home .contactme h5 {
     margin-top: 20px;
     color: #aeaeae;

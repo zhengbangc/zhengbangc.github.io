@@ -4254,7 +4254,7 @@ table.hover tr:nth-of-type(even):hover {
     .home .intro .experience ul {
       list-style: none;
       max-width: 400px;
-      margin: 0; }
+      margin: 0 auto; }
       @media screen and (min-width: 0em) and (max-width: 39.9375em) {
         /* line 82, ../../source_sass/_base.scss */
         .home .intro .experience ul {

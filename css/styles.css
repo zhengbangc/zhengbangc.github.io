@@ -4253,22 +4253,23 @@ table.hover tr:nth-of-type(even):hover {
     /* line 82, ../../source_sass/_base.scss */
     .home .intro .experience ul {
       list-style: none;
-      max-width: 400px; }
+      max-width: 400px;
+      margin: 0; }
       @media screen and (min-width: 0em) and (max-width: 39.9375em) {
         /* line 82, ../../source_sass/_base.scss */
         .home .intro .experience ul {
           padding: 0 20px; } }
-      /* line 88, ../../source_sass/_base.scss */
+      /* line 89, ../../source_sass/_base.scss */
       .home .intro .experience ul li {
         cursor: pointer;
         font-family: "Open Sans", serif;
         letter-spacing: 1px;
         margin-bottom: -10px; }
         @media screen and (min-width: 64em) {
-          /* line 88, ../../source_sass/_base.scss */
+          /* line 89, ../../source_sass/_base.scss */
           .home .intro .experience ul li {
             margin-bottom: 20px; }
-            /* line 93, ../../source_sass/_base.scss */
+            /* line 94, ../../source_sass/_base.scss */
             .home .intro .experience ul li:hover h5 {
               transition: all 0.125s ease-in-out;
               -webkit-transition: all 0.125s ease-in-out;
@@ -4276,7 +4277,7 @@ table.hover tr:nth-of-type(even):hover {
               -o-transition: all 0.125s ease-in-out;
               color: #C5B358; } }
   @media screen and (min-width: 64em) and (min-width: 64em) {
-    /* line 98, ../../source_sass/_base.scss */
+    /* line 99, ../../source_sass/_base.scss */
     .home .intro .experience ul li:hover span.fa-angle-right {
       -ms-transform: translateX(5px);
       -webkit-transform: translateX(5px);
@@ -4286,30 +4287,30 @@ table.hover tr:nth-of-type(even):hover {
       -moz-transition: all 0.125s ease-in-out;
       -o-transition: all 0.125s ease-in-out; } }
 
-        /* line 108, ../../source_sass/_base.scss */
+        /* line 109, ../../source_sass/_base.scss */
         .home .intro .experience ul li h5 {
           margin-bottom: 0px;
           font-size: 18px;
           color: #303030;
           font-weight: 300; }
           @media screen and (min-width: 64em) {
-            /* line 108, ../../source_sass/_base.scss */
+            /* line 109, ../../source_sass/_base.scss */
             .home .intro .experience ul li h5 {
               font-size: 25px; } }
-          /* line 116, ../../source_sass/_base.scss */
+          /* line 117, ../../source_sass/_base.scss */
           .home .intro .experience ul li h5.extended {
             color: #C5B358; }
-        /* line 120, ../../source_sass/_base.scss */
+        /* line 121, ../../source_sass/_base.scss */
         .home .intro .experience ul li span {
           font-size: 20px;
           color: #C5B358; }
-        /* line 124, ../../source_sass/_base.scss */
+        /* line 125, ../../source_sass/_base.scss */
         .home .intro .experience ul li h7 {
           font-weight: 300;
           margin-left: 5px;
           color: #808080;
           margin-top: -15px; }
-        /* line 130, ../../source_sass/_base.scss */
+        /* line 131, ../../source_sass/_base.scss */
         .home .intro .experience ul li p {
           position: relative;
           font-family: 'Roboto Slab', garamond, serif;
@@ -4319,7 +4320,7 @@ table.hover tr:nth-of-type(even):hover {
           /*@include transition(height 0.3s ease-in-out );*/
           /*@include transition(opacity 0.1s ease-in-out );*/
           opacity: 0; }
-          /* line 134, ../../source_sass/_base.scss */
+          /* line 135, ../../source_sass/_base.scss */
           .home .intro .experience ul li p.extended {
             height: auto;
             opacity: 1;
@@ -4334,43 +4335,43 @@ table.hover tr:nth-of-type(even):hover {
             z-index: 2;
             margin-top: 5px;
             margin-bottom: 40px; }
-          /* line 148, ../../source_sass/_base.scss */
+          /* line 149, ../../source_sass/_base.scss */
           .home .intro .experience ul li p a {
             border-bottom: dotted 1px #aeaeae;
             color: black; }
-            /* line 151, ../../source_sass/_base.scss */
+            /* line 152, ../../source_sass/_base.scss */
             .home .intro .experience ul li p a:hover {
               color: #C5B358; }
-            /* line 154, ../../source_sass/_base.scss */
+            /* line 155, ../../source_sass/_base.scss */
             .home .intro .experience ul li p a:visited {
               color: black; }
-/* line 163, ../../source_sass/_base.scss */
+/* line 164, ../../source_sass/_base.scss */
 .home .myworks {
   overflow: hidden; }
   @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-    /* line 163, ../../source_sass/_base.scss */
+    /* line 164, ../../source_sass/_base.scss */
     .home .myworks {
       margin-bottom: 30px;
       min-height: 80vh; } }
   @media screen and (min-width: 64em) {
-    /* line 163, ../../source_sass/_base.scss */
+    /* line 164, ../../source_sass/_base.scss */
     .home .myworks {
       width: 80vw;
       margin-left: auto;
       margin-right: auto;
       min-height: 80vh; } }
-  /* line 175, ../../source_sass/_base.scss */
+  /* line 176, ../../source_sass/_base.scss */
   .home .myworks .eyeimg {
     width: 100%;
     text-align: center; }
-    /* line 178, ../../source_sass/_base.scss */
+    /* line 179, ../../source_sass/_base.scss */
     .home .myworks .eyeimg img {
       width: 20vw; }
       @media screen and (min-width: 64em) {
-        /* line 178, ../../source_sass/_base.scss */
+        /* line 179, ../../source_sass/_base.scss */
         .home .myworks .eyeimg img {
           width: 8vw; } }
-  /* line 187, ../../source_sass/_base.scss */
+  /* line 188, ../../source_sass/_base.scss */
   .home .myworks h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4380,17 +4381,17 @@ table.hover tr:nth-of-type(even):hover {
     font-weight: 300;
     font-size: 20px; }
     @media screen and (min-width: 64em) {
-      /* line 187, ../../source_sass/_base.scss */
+      /* line 188, ../../source_sass/_base.scss */
       .home .myworks h3 {
         font-size: 30px; } }
-  /* line 199, ../../source_sass/_base.scss */
+  /* line 200, ../../source_sass/_base.scss */
   .home .myworks .thumbnails {
     margin-top: 20px;
     width: 100%;
     margin: auto;
     padding: auto;
     padding: 0 5px; }
-    /* line 205, ../../source_sass/_base.scss */
+    /* line 206, ../../source_sass/_base.scss */
     .home .myworks .thumbnails .thumb_nail {
       opacity: 0;
       display: inline-block;
@@ -4403,16 +4404,16 @@ table.hover tr:nth-of-type(even):hover {
       width: 50%;
       float: left; }
       @media screen and (min-width: 40em) {
-        /* line 205, ../../source_sass/_base.scss */
+        /* line 206, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail {
           height: 200px;
           padding: 10px 10px 10px 10px; } }
       @media screen and (min-width: 64em) {
-        /* line 205, ../../source_sass/_base.scss */
+        /* line 206, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail {
           width: 33.33333%;
           height: 200px; } }
-      /* line 224, ../../source_sass/_base.scss */
+      /* line 225, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail.appear {
         -ms-transform: translateY(0px);
         -webkit-transform: translateY(0px);
@@ -4422,7 +4423,7 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out; }
-      /* line 229, ../../source_sass/_base.scss */
+      /* line 230, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:hover {
         -ms-transform: scale(1.03, 1.03);
         /* IE 9 */
@@ -4433,20 +4434,20 @@ table.hover tr:nth-of-type(even):hover {
         -webkit-transition: all 0.25s ease-out;
         -moz-transition: all 0.25s ease-out;
         -o-transition: all 0.25s ease-out; }
-        /* line 233, ../../source_sass/_base.scss */
+        /* line 234, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover .thumb_nail_container h5 {
           color: #C5B358; }
-        /* line 236, ../../source_sass/_base.scss */
+        /* line 237, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover .thumb_nail_container p {
           transition: all 0.4s ease-in-out;
           -webkit-transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
           -o-transition: all 0.4s ease-in-out;
           opacity: 1; }
-        /* line 240, ../../source_sass/_base.scss */
+        /* line 241, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail:hover .thumb_nail_container .background-img {
           background-color: rgba(0, 0, 0, 0.7); }
-      /* line 246, ../../source_sass/_base.scss */
+      /* line 247, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail .thumb_nail_container {
         border-radius: 6px;
         width: 100%;
@@ -4458,7 +4459,7 @@ table.hover tr:nth-of-type(even):hover {
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: overlay;
         position: relative; }
-        /* line 257, ../../source_sass/_base.scss */
+        /* line 258, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail .thumb_nail_container h5 {
           position: absolute;
           left: 10px;
@@ -4468,12 +4469,12 @@ table.hover tr:nth-of-type(even):hover {
           letter-spacing: 0.8px;
           color: white; }
           @media screen and (min-width: 40em) {
-            /* line 257, ../../source_sass/_base.scss */
+            /* line 258, ../../source_sass/_base.scss */
             .home .myworks .thumbnails .thumb_nail .thumb_nail_container h5 {
               left: 20px;
               top: 13px;
               font-size: 20px; } }
-        /* line 273, ../../source_sass/_base.scss */
+        /* line 274, ../../source_sass/_base.scss */
         .home .myworks .thumbnails .thumb_nail .thumb_nail_container p {
           display: none;
           position: absolute;
@@ -4486,28 +4487,28 @@ table.hover tr:nth-of-type(even):hover {
           width: 80%;
           font-size: 18px; }
           @media screen and (min-width: 40em) {
-            /* line 273, ../../source_sass/_base.scss */
+            /* line 274, ../../source_sass/_base.scss */
             .home .myworks .thumbnails .thumb_nail .thumb_nail_container p {
               display: block; } }
-      /* line 292, ../../source_sass/_base.scss */
+      /* line 293, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(1) .thumb_nail_container {
         background-image: url("../data/images/work_projects.png"); }
-      /* line 297, ../../source_sass/_base.scss */
+      /* line 298, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(2) .thumb_nail_container {
         background-image: url("../data/images/work_designs.png"); }
-      /* line 302, ../../source_sass/_base.scss */
+      /* line 303, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(3) .thumb_nail_container {
         background-image: url("../data/images/work_photos.png"); }
-      /* line 307, ../../source_sass/_base.scss */
+      /* line 308, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(4) .thumb_nail_container {
         background-image: url("../data/images/work_writings.png"); }
-      /* line 312, ../../source_sass/_base.scss */
+      /* line 313, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(5) .thumb_nail_container {
         background-image: url("../data/images/cestlavie.png"); }
-      /* line 317, ../../source_sass/_base.scss */
+      /* line 318, ../../source_sass/_base.scss */
       .home .myworks .thumbnails .thumb_nail:nth-child(6) .thumb_nail_container {
         background-image: url("../data/images/bonvoyage.png"); }
-/* line 325, ../../source_sass/_base.scss */
+/* line 326, ../../source_sass/_base.scss */
 .home .contactme {
   width: 100vw;
   margin-top: 60px;
@@ -4517,18 +4518,18 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 35px;
   color: black;
   text-align: center; }
-  /* line 334, ../../source_sass/_base.scss */
+  /* line 335, ../../source_sass/_base.scss */
   .home .contactme div {
     width: 100%;
     text-align: center; }
-    /* line 337, ../../source_sass/_base.scss */
+    /* line 338, ../../source_sass/_base.scss */
     .home .contactme div img {
       width: 20vw; }
       @media screen and (min-width: 40em) {
-        /* line 337, ../../source_sass/_base.scss */
+        /* line 338, ../../source_sass/_base.scss */
         .home .contactme div img {
           width: 8vw; } }
-  /* line 346, ../../source_sass/_base.scss */
+  /* line 347, ../../source_sass/_base.scss */
   .home .contactme h3 {
     font-family: "Open Sans", serif;
     color: #808080;
@@ -4538,29 +4539,29 @@ table.hover tr:nth-of-type(even):hover {
     font-weight: 300;
     font-size: 20px; }
     @media screen and (min-width: 64em) {
-      /* line 346, ../../source_sass/_base.scss */
+      /* line 347, ../../source_sass/_base.scss */
       .home .contactme h3 {
         font-size: 30px; } }
-  /* line 358, ../../source_sass/_base.scss */
+  /* line 359, ../../source_sass/_base.scss */
   .home .contactme a {
     border-bottom: dotted 1px #aeaeae;
     color: #505050;
     font-size: 25px; }
     @media screen and (min-width: 64em) {
-      /* line 358, ../../source_sass/_base.scss */
+      /* line 359, ../../source_sass/_base.scss */
       .home .contactme a {
         font-size: 30px; } }
-    /* line 365, ../../source_sass/_base.scss */
+    /* line 366, ../../source_sass/_base.scss */
     .home .contactme a:visited {
       color: #505050; }
-    /* line 368, ../../source_sass/_base.scss */
+    /* line 369, ../../source_sass/_base.scss */
     .home .contactme a:hover {
       color: #C5B358;
       transition: all 0.1s ease-in-out;
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
       -o-transition: all 0.1s ease-in-out; }
-  /* line 373, ../../source_sass/_base.scss */
+  /* line 374, ../../source_sass/_base.scss */
   .home .contactme p {
     margin-top: 20px;
     color: #aeaeae;
